@@ -1,9 +1,13 @@
  Documention sur l'utilisation du repository
  -------------------------------------------
-1. 1-Create a feature in git 
-2. 2-Check if the issue is already in progress in the relevant project's board
-3. 3-Move the issue to the in progress column in the board
+ 1-Create a feature in git 
+ 
+ 2-Check if the issue is already in progress in the relevant project's board
+ 
+ 3-Move the issue to the in progress column in the board
+ 
 4-Update your local master: git checkout master & git pull origin master
+
 5-Create the corresponding branch following the convention #issue-descriptive-name, e.g. 21-adding-branching-documentation. The branch name should be lower case since it's sometimes used as http route, which are case insensitive.
 6-Make some tests, some code, etc.
 7-Add your changes to your local git index: git add .
